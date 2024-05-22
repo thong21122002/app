@@ -1,0 +1,144 @@
+.footer-new {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.footer-new a {
+    text-decoration: none;
+    color: #7d7878;
+}
+
+.footer-new a:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.footer-new ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-new ul:nth-of-type(1) {
+    margin-top: 30px;
+}
+
+.footer-new li {
+    margin: 15px 0;
+}
+
+.infomation-footer p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.phone-info {
+    padding-top: 30px;
+}
+
+.infomation-footer div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.infomation-footer i {
+    padding-right: 10px;
+    align-items: center;
+}
+
+.social-media span {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+@media (max-width: 1280px) {
+    .infomation-footer p {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .infomation-footer span {
+        font-size: 14px;
+    }
+
+    .social-media span {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .social-media ul {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-new {
+        display: grid;
+        grid-template-rows: 1fr 0fr 0fr 0fr;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 800px) {
+    .infomation-footer p {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .infomation-footer span {
+        font-size: 14px;
+    }
+
+    .social-media span {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .social-media ul {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .infomation-footer p {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .infomation-footer span {
+        font-size: 12px;
+    }
+
+    .social-media span {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .social-media ul {
+        font-size: 20px;
+    }
+
+    .infomation-footer {
+        padding: 0 30px 0 30px;
+    }
+
+    .footer-link {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
